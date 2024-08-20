@@ -79,7 +79,27 @@
         [
           "五支",
           "包括",
-          "觉、观、喜、乐、一心"
+          "觉"
+        ],
+        [
+          "五支",
+          "包括",
+          "观"
+        ],
+        [
+          "五支",
+          "包括",
+          "喜"
+        ],
+        [
+          "五支",
+          "包括",
+          "乐"
+        ],
+        [
+          "五支",
+          "包括",
+          "一心"
         ],
         [
           "二禅",
@@ -145,12 +165,17 @@
         ],
         [
           "初禅",
+          "不同于",
+          "二禅"
+        ],
+        [
+          "初禅",
           "有",
           "觉身宁静"
         ],
         [
           "二禅",
-          "与初禅的不同在于",
+          "是",
           "无觉无观"
         ],
         [
@@ -177,10 +202,14 @@
         "Entailment",
         "Neutral",
         "Neutral",
+        "Contradiction",
+        "Contradiction",
+        "Entailment",
+        "Neutral",
         "Entailment",
         "Entailment",
         "Entailment",
-        "Neutral"
+        "Entailment"
       ],
       "response2answer": [
         "Entailment",
@@ -193,6 +222,7 @@
         "Contradiction",
         "Contradiction",
         "Entailment",
+        "Contradiction",
         "Entailment",
         "Entailment",
         "Entailment"
@@ -261,6 +291,22 @@
         [
           "Entailment",
           "Neutral"
+        ],
+        [
+          "Entailment",
+          "Neutral"
+        ],
+        [
+          "Entailment",
+          "Neutral"
+        ],
+        [
+          "Entailment",
+          "Neutral"
+        ],
+        [
+          "Entailment",
+          "Neutral"
         ]
       ],
       "retrieved2answer": [
@@ -301,7 +347,11 @@
           "Neutral"
         ],
         [
-          "Contradiction",
+          "Entailment",
+          "Neutral"
+        ],
+        [
+          "Entailment",
           "Neutral"
         ],
         [
@@ -318,17 +368,17 @@
         ]
       ],
       "metrics": {
-        "hallucination": 0.125,
-        "self_knowledge": 0.0625,
-        "faithfulness": 0.8125,
-        "precision": 0.6875,
-        "recall": 0.5384615384615384,
-        "claim_recall": 0.9230769230769231,
+        "precision": 0.65,
+        "claim_recall": 1.0,
         "context_precision": 0.5,
-        "noise_sensitivity_in_relevant": 0.1875,
+        "recall": 0.5,
+        "noise_sensitivity_in_relevant": 0.25,
         "noise_sensitivity_in_irrelevant": 0.0,
-        "context_utilization": 0.5,
-        "f1": 0.6039215686274509
+        "hallucination": 0.1,
+        "self_knowledge": 0.05,
+        "faithfulness": 0.85,
+        "f1": 0.5652173913043479,
+        "context_utilization": 0.5
       }
     },
     {
@@ -430,7 +480,7 @@
           "生灭"
         ],
         [
-          "生灭",
+          "涅槃",
           "必然是",
           "无常的"
         ],
@@ -469,7 +519,7 @@
         "Contradiction",
         "Contradiction",
         "Neutral",
-        "Entailment",
+        "Neutral",
         "Entailment",
         "Entailment",
         "Contradiction"
@@ -531,11 +581,11 @@
         ],
         [
           "Entailment",
-          "Neutral"
+          "Contradiction"
         ],
         [
           "Entailment",
-          "Neutral"
+          "Contradiction"
         ],
         [
           "Entailment",
@@ -559,17 +609,17 @@
         ]
       ],
       "metrics": {
+        "precision": 0.36363636363636365,
+        "claim_recall": 0.8888888888888888,
+        "context_precision": 1.0,
+        "recall": 0.3333333333333333,
+        "noise_sensitivity_in_relevant": 0.0,
+        "noise_sensitivity_in_irrelevant": 0.0,
         "hallucination": 0.6363636363636364,
         "self_knowledge": 0.0,
         "faithfulness": 0.36363636363636365,
-        "precision": 0.36363636363636365,
-        "recall": 0.4444444444444444,
-        "claim_recall": 0.8888888888888888,
-        "context_precision": 1.0,
-        "noise_sensitivity_in_relevant": 0.0,
-        "noise_sensitivity_in_irrelevant": 0.0,
-        "context_utilization": 0.5,
-        "f1": 0.39999999999999997
+        "f1": 0.34782608695652173,
+        "context_utilization": 0.375
       }
     },
     {
@@ -651,7 +701,12 @@
           "很快"
         ],
         [
-          "有人骂你一句粗话",
+          "有人",
+          "骂",
+          "你一句粗话"
+        ],
+        [
+          "骂你一句粗话",
           "可能导致",
           "烦恼"
         ],
@@ -674,13 +729,14 @@
         "Entailment",
         "Entailment",
         "Entailment",
-        "Entailment"
+        "Neutral"
       ],
       "response2answer": [
         "Entailment",
         "Entailment",
         "Neutral",
         "Contradiction",
+        "Neutral",
         "Neutral",
         "Entailment",
         "Entailment"
@@ -737,7 +793,7 @@
           "Neutral"
         ],
         [
-          "Entailment",
+          "Neutral",
           "Neutral"
         ],
         [
@@ -746,21 +802,25 @@
         ],
         [
           "Entailment",
-          "Neutral"
+          "Entailment"
+        ],
+        [
+          "Entailment",
+          "Entailment"
         ]
       ],
       "metrics": {
+        "precision": 0.875,
+        "claim_recall": 0.75,
+        "context_precision": 1.0,
+        "recall": 0.5,
+        "noise_sensitivity_in_relevant": 0.125,
+        "noise_sensitivity_in_irrelevant": 0.0,
         "hallucination": 0.0,
         "self_knowledge": 0.0,
         "faithfulness": 1.0,
-        "precision": 1.0,
-        "recall": 0.5714285714285714,
-        "claim_recall": 0.8571428571428571,
-        "context_precision": 0.5,
-        "noise_sensitivity_in_relevant": 0.0,
-        "noise_sensitivity_in_irrelevant": 0.0,
-        "context_utilization": 0.6666666666666666,
-        "f1": 0.7272727272727273
+        "f1": 0.6363636363636364,
+        "context_utilization": 0.6666666666666666
       }
     },
     {
@@ -828,11 +888,11 @@
         ],
         [
           "心念",
-          "无",
-          "恒定不变的状态"
+          "无恒定不变的状态",
+          "不存在"
         ],
         [
-          "实践观心无常",
+          "观心无常",
           "有助于",
           "克服对一个恒久不变自我的错误认知"
         ]
@@ -841,7 +901,7 @@
         "Entailment",
         "Entailment",
         "Neutral",
-        "Neutral",
+        "Entailment",
         "Neutral",
         "Neutral"
       ],
@@ -901,17 +961,17 @@
         ]
       ],
       "metrics": {
+        "precision": 0.5,
+        "claim_recall": 1.0,
+        "context_precision": 1.0,
+        "recall": 1.0,
+        "noise_sensitivity_in_relevant": 0.3333333333333333,
+        "noise_sensitivity_in_irrelevant": 0.0,
         "hallucination": 0.16666666666666666,
         "self_knowledge": 0.0,
         "faithfulness": 0.8333333333333334,
-        "precision": 0.3333333333333333,
-        "recall": 1.0,
-        "claim_recall": 1.0,
-        "context_precision": 1.0,
-        "noise_sensitivity_in_relevant": 0.5,
-        "noise_sensitivity_in_irrelevant": 0.0,
-        "context_utilization": 1.0,
-        "f1": 0.5
+        "f1": 0.6666666666666666,
+        "context_utilization": 1.0
       }
     },
     {
@@ -938,12 +998,7 @@
         [
           "善知识",
           "能够指导",
-          "信徒"
-        ],
-        [
-          "信徒",
-          "正确修行",
-          "佛法"
+          "信徒正确修行佛法"
         ],
         [
           "善知识",
@@ -962,8 +1017,8 @@
         ],
         [
           "亲近善知识",
-          "帮助",
-          "信徒断除烦恼"
+          "有助于",
+          "断除烦恼"
         ],
         [
           "亲近善知识",
@@ -1010,7 +1065,6 @@
         "Entailment",
         "Entailment",
         "Entailment",
-        "Entailment",
         "Entailment"
       ],
       "response2answer": [
@@ -1027,11 +1081,7 @@
           "Neutral"
         ],
         [
-          "Neutral",
-          "Neutral"
-        ],
-        [
-          "Neutral",
+          "Entailment",
           "Neutral"
         ],
         [
@@ -1082,17 +1132,17 @@
         ]
       ],
       "metrics": {
-        "hallucination": 0.0,
-        "self_knowledge": 0.5,
-        "faithfulness": 0.5,
         "precision": 1.0,
-        "recall": 0.8333333333333334,
         "claim_recall": 1.0,
         "context_precision": 0.5,
+        "recall": 0.8333333333333334,
         "noise_sensitivity_in_relevant": 0.0,
         "noise_sensitivity_in_irrelevant": 0.0,
-        "context_utilization": 0.8333333333333334,
-        "f1": 0.9090909090909091
+        "hallucination": 0.0,
+        "self_knowledge": 0.2857142857142857,
+        "faithfulness": 0.7142857142857143,
+        "f1": 0.9090909090909091,
+        "context_utilization": 0.8333333333333334
       }
     },
     {
@@ -1253,17 +1303,17 @@
         ]
       ],
       "metrics": {
+        "precision": 0.8571428571428571,
+        "claim_recall": 1.0,
+        "context_precision": 0.5,
+        "recall": 0.6666666666666666,
+        "noise_sensitivity_in_relevant": 0.14285714285714285,
+        "noise_sensitivity_in_irrelevant": 0.0,
         "hallucination": 0.0,
         "self_knowledge": 0.0,
         "faithfulness": 1.0,
-        "precision": 0.8571428571428571,
-        "recall": 0.6666666666666666,
-        "claim_recall": 1.0,
-        "context_precision": 0.5,
-        "noise_sensitivity_in_relevant": 0.14285714285714285,
-        "noise_sensitivity_in_irrelevant": 0.0,
-        "context_utilization": 0.6666666666666666,
-        "f1": 0.75
+        "f1": 0.75,
+        "context_utilization": 0.6666666666666666
       }
     },
     {
@@ -1345,12 +1395,7 @@
         [
           "六根与六尘的接触",
           "产生",
-          "感受"
-        ],
-        [
-          "六根与六尘的接触",
-          "产生",
-          "烦恼"
+          "感受和烦恼"
         ],
         [
           "修行四念处",
@@ -1373,9 +1418,9 @@
           "一切法无常、苦、无我"
         ],
         [
-          "达到内心的平静和解脱",
-          "是",
-          "这种方法的结果"
+          "认识到一切法无常、苦、无我",
+          "达到",
+          "内心的平静和解脱"
         ]
       ],
       "gt_answer_claims": [
@@ -1390,8 +1435,8 @@
           "贪嗔痴"
         ],
         [
-          "观察六根与六尘的接触",
-          "了了分明",
+          "六根与六尘的接触",
+          "导致",
           "受的生起和灭掉"
         ],
         [
@@ -1400,12 +1445,12 @@
           "一种接触"
         ],
         [
-          "观察这种接触和受的生起",
+          "观察这种接触",
           "可以看到",
           "烦恼的源头"
         ],
         [
-          "烦恼的源头",
+          "看到烦恼的源头",
           "可以逐渐消灭",
           "贪嗔痴"
         ]
@@ -1422,14 +1467,13 @@
         "Entailment",
         "Entailment",
         "Neutral",
-        "Contradiction",
-        "Entailment",
-        "Entailment",
         "Neutral",
         "Entailment",
         "Neutral",
+        "Entailment",
         "Neutral",
-        "Neutral"
+        "Entailment",
+        "Entailment"
       ],
       "response2answer": [
         "Entailment",
@@ -1437,7 +1481,7 @@
         "Neutral",
         "Neutral",
         "Entailment",
-        "Neutral"
+        "Entailment"
       ],
       "retrieved2response": [
         [
@@ -1485,10 +1529,6 @@
           "Neutral"
         ],
         [
-          "Contradiction",
-          "Neutral"
-        ],
-        [
           "Entailment",
           "Neutral"
         ],
@@ -1531,7 +1571,7 @@
           "Neutral"
         ],
         [
-          "Entailment",
+          "Neutral",
           "Neutral"
         ],
         [
@@ -1544,17 +1584,17 @@
         ]
       ],
       "metrics": {
-        "hallucination": 0.42105263157894735,
-        "self_knowledge": 0.21052631578947367,
-        "faithfulness": 0.3684210526315789,
-        "precision": 0.3684210526315789,
-        "recall": 0.5,
-        "claim_recall": 1.0,
+        "precision": 0.4444444444444444,
+        "claim_recall": 0.8333333333333334,
         "context_precision": 0.5,
-        "noise_sensitivity_in_relevant": 0.21052631578947367,
+        "recall": 0.6666666666666666,
+        "noise_sensitivity_in_relevant": 0.16666666666666666,
         "noise_sensitivity_in_irrelevant": 0.0,
-        "context_utilization": 0.5,
-        "f1": 0.4242424242424242
+        "hallucination": 0.3888888888888889,
+        "self_knowledge": 0.2222222222222222,
+        "faithfulness": 0.3888888888888889,
+        "f1": 0.5333333333333333,
+        "context_utilization": 0.8
       }
     },
     {
@@ -1776,7 +1816,7 @@
           "Neutral"
         ],
         [
-          "Neutral",
+          "Entailment",
           "Neutral"
         ],
         [
@@ -1875,17 +1915,17 @@
         ]
       ],
       "metrics": {
-        "hallucination": 0.2,
-        "self_knowledge": 0.2,
-        "faithfulness": 0.6,
         "precision": 0.8,
-        "recall": 0.7142857142857143,
         "claim_recall": 1.0,
         "context_precision": 0.5,
+        "recall": 0.7142857142857143,
         "noise_sensitivity_in_relevant": 0.0,
         "noise_sensitivity_in_irrelevant": 0.0,
-        "context_utilization": 0.7142857142857143,
-        "f1": 0.7547169811320756
+        "hallucination": 0.2,
+        "self_knowledge": 0.13333333333333333,
+        "faithfulness": 0.6666666666666666,
+        "f1": 0.7547169811320756,
+        "context_utilization": 0.7142857142857143
       }
     },
     {
@@ -1977,63 +2017,58 @@
           "身体的一举一动和呼吸的出入"
         ],
         [
-          "修行者",
-          "观察",
+          "经行时",
+          "修行者观察",
           "脚的动作"
         ],
         [
-          "脚的动作",
-          "包括",
+          "修行者",
+          "知道",
           "哪只脚先起"
         ],
         [
-          "脚的动作",
-          "包括",
-          "踏在地上"
+          "脚",
+          "踏在",
+          "地上"
         ],
         [
-          "心念",
-          "开始时",
-          "粗"
+          "踏到地上的情形",
+          "修行者知道",
+          "情况"
         ],
         [
-          "心念",
-          "训练方式",
-          "用心念左右、左右地训练"
+          "心念粗",
+          "需要",
+          "用心念左右训练"
         ],
         [
-          "身体走路行为",
-          "变得",
-          "很清楚"
+          "心念微细时",
+          "只需",
+          "保持知道"
         ],
         [
-          "心念",
-          "变得",
-          "微细"
-        ],
-        [
-          "静坐",
+          "静坐时",
           "观察",
           "呼吸"
         ],
         [
-          "呼吸",
+          "静坐时",
           "注意",
           "肚子的膨胀与收缩"
         ],
         [
-          "静坐过程",
-          "需要",
-          "知道发生的任何事情"
+          "静坐的过程中",
+          "发生任何事情",
+          "修行者都要知道"
         ],
         [
           "经行的结果",
-          "使得",
+          "使",
           "心会慢慢定下来"
         ],
         [
           "心定下来",
-          "导致",
+          "使",
           "观察力越来越敏锐"
         ]
       ],
@@ -2059,7 +2094,6 @@
         "Entailment",
         "Neutral",
         "Neutral",
-        "Entailment",
         "Neutral",
         "Entailment",
         "Entailment",
@@ -2169,24 +2203,20 @@
         [
           "Entailment",
           "Neutral"
-        ],
-        [
-          "Entailment",
-          "Neutral"
         ]
       ],
       "metrics": {
+        "precision": 0.9090909090909091,
+        "claim_recall": 1.0,
+        "context_precision": 0.5,
+        "recall": 0.6428571428571429,
+        "noise_sensitivity_in_relevant": 0.0,
+        "noise_sensitivity_in_irrelevant": 0.0,
         "hallucination": 0.09090909090909091,
         "self_knowledge": 0.0,
         "faithfulness": 0.9090909090909091,
-        "precision": 0.9090909090909091,
-        "recall": 0.6666666666666666,
-        "claim_recall": 1.0,
-        "context_precision": 0.5,
-        "noise_sensitivity_in_relevant": 0.0,
-        "noise_sensitivity_in_irrelevant": 0.0,
-        "context_utilization": 0.6666666666666666,
-        "f1": 0.7692307692307692
+        "f1": 0.7531380753138075,
+        "context_utilization": 0.6428571428571429
       }
     },
     {
@@ -2212,11 +2242,11 @@
         ],
         [
           "初果修行者",
-          "必须对",
-          "佛、法、僧以及戒律有不可动摇的信心"
+          "必须有",
+          "不可动摇的信心"
         ],
         [
-          "这种信心",
+          "不可动摇的信心",
           "被称为",
           "四不坏信"
         ],
@@ -2246,12 +2276,12 @@
           "修行者断除疑结"
         ],
         [
-          "修行者",
-          "证悟",
-          "初果"
+          "修行者断除疑结",
+          "从而",
+          "证悟初果"
         ],
         [
-          "修行者",
+          "证悟初果",
           "进入",
           "解脱之道"
         ]
@@ -2277,8 +2307,8 @@
         "Entailment",
         "Entailment",
         "Neutral",
-        "Neutral",
-        "Neutral",
+        "Entailment",
+        "Entailment",
         "Entailment",
         "Entailment",
         "Entailment",
@@ -2347,37 +2377,37 @@
         ]
       ],
       "metrics": {
+        "precision": 0.8,
+        "claim_recall": 1.0,
+        "context_precision": 0.5,
+        "recall": 0.6666666666666666,
+        "noise_sensitivity_in_relevant": 0.1,
+        "noise_sensitivity_in_irrelevant": 0.0,
         "hallucination": 0.1,
         "self_knowledge": 0.0,
         "faithfulness": 0.9,
-        "precision": 0.6,
-        "recall": 0.6666666666666666,
-        "claim_recall": 1.0,
-        "context_precision": 0.5,
-        "noise_sensitivity_in_relevant": 0.3,
-        "noise_sensitivity_in_irrelevant": 0.0,
-        "context_utilization": 0.6666666666666666,
-        "f1": 0.631578947368421
+        "f1": 0.7272727272727272,
+        "context_utilization": 0.6666666666666666
       }
     }
   ],
   "metrics": {
     "overall_metrics": {
-      "precision": 69.2,
-      "recall": 66.0,
-      "f1": 64.7
+      "precision": 72.0,
+      "recall": 65.2,
+      "f1": 66.4
     },
     "retriever_metrics": {
-      "claim_recall": 96.7,
-      "context_precision": 60.0
+      "claim_recall": 94.7,
+      "context_precision": 65.0
     },
     "generator_metrics": {
-      "context_utilization": 67.1,
-      "noise_sensitivity_in_relevant": 13.4,
+      "context_utilization": 68.7,
+      "noise_sensitivity_in_relevant": 11.2,
       "noise_sensitivity_in_irrelevant": 0.0,
-      "hallucination": 17.4,
-      "self_knowledge": 9.7,
-      "faithfulness": 72.9
+      "hallucination": 16.8,
+      "self_knowledge": 6.9,
+      "faithfulness": 76.3
     }
   }
 }
