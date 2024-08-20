@@ -53,7 +53,7 @@ def convert_csv_to_json(input_dir, output_dir):
             json.dump({"results": results}, f, ensure_ascii=False, indent=2)
 
 
-# 示例调用
-input_dir = '/ragcheck/input_csv'  # CSV文件的路径
-output_dir = 'output'  # 转换后JSON文件的保存路径
-convert_csv_to_json(input_dir, output_dir)
+# # 示例调用
+# input_dir = '/ragcheck/input_csv'  # CSV文件的路径
+# output_dir = 'output'  # 转换后JSON文件的保存路径
+# convert_csv_to_json(input_dir, output_dir)
