@@ -1,0 +1,21 @@
+{
+    "name": "compress_question",
+    "instruction": "Rewrite the following question to make it more indirect and shorter while retaining the essence of the original question.\n    The goal is to create a question that conveys the same meaning but in a less direct manner. The rewritten question should shorter so use abbreviation wherever possible.",
+    "output_format_instruction": "",
+    "examples": [
+        {
+            "question": "\u5730\u7403\u548c\u6708\u7403\u4e4b\u95f4\u7684\u8ddd\u79bb\u662f\u591a\u5c11\uff1f",
+            "output": "\u6708\u7403\u8ddd\u79bb\u5730\u7403\u6709\u591a\u8fdc\uff1f"
+        },
+        {
+            "question": "\u70d8\u70e4\u5de7\u514b\u529b\u86cb\u7cd5\u9700\u8981\u54ea\u4e9b\u539f\u6599\uff1f",
+            "output": "\u5236\u4f5c\u5de7\u514b\u529b\u86cb\u7cd5\u9700\u8981\u4ec0\u4e48\uff1f"
+        }
+    ],
+    "input_keys": [
+        "question"
+    ],
+    "output_key": "output",
+    "output_type": "str",
+    "language": "chinese"
+}
